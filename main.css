@@ -17,6 +17,16 @@
     right: 0;
 }
 
+.bi-list {
+    width: 24px;
+    height: 24px;
+    color: white;
+}
+
+.menu {
+    display: none;
+}
+
 .h1 {
     font-size: 64px;
     font-weight: bold;
@@ -86,20 +96,6 @@ nav a {
     }
 }
 
-@media screen and (max-width: 480px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .about {
-        flex-direction: column;
-        padding: 50px;
-    }
-
-    .card-item {
-        flex-direction: column;
-        padding: 0 20px;
-    }
+@media screen and (max-width:600px) {
+    
 }
-
