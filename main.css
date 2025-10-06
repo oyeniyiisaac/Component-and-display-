@@ -123,6 +123,7 @@ nav a {
         display: flex;
         flex-wrap: wrap;
         padding: 40px;
+        margin-top: 15px;
 
         h1 {
             font-size: 48px;
